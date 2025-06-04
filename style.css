@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+/* Top Content */
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+.top-content img {
+    width: 30px;
+    height: auto;
+}
+
+.top-content ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.bus-name {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+    gap: 60px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Bottom content */
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin: 100px 0px;
+}
+
+.bottom-content img {
+    width: 400px;
+    height: auto;
+}
+
+.bottom-content .content {
+    display: flex;
+    flex-direction: column;    
+    height: auto;
+    width: 400px;
+    color: #F9FAF8;
+    justify-content: center;
+    gap: 0;
+}
+
+.bottom-content .main-text {
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-content .button {
+    height: auto;
+    width: 80px;
+    padding: 5px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    color: #F9FAF8;
+}
+
+
+
+
+
+
