@@ -106,13 +106,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 .title {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
 }
 
 .group {
@@ -140,6 +144,32 @@ body {
     gap: 40px;
 }
 
+/* Reviews */
+
+.reviews {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 200px;
+}
+
+.reviews .review {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+.reviews .reviewer {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+}
 
 
 
