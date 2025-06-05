@@ -15,7 +15,7 @@ body {
 .top-content {
     display: flex;
     justify-content: space-between;
-    padding: 10px 200px;
+    padding: 10px 150px;
 }
 
 .top-content img {
@@ -65,7 +65,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 160px;
-    margin: 100px 0px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .bottom-content img {
@@ -98,6 +99,51 @@ body {
     border: none;
     color: #F9FAF8;
 }
+
+/* Information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.group img {
+    height: 160px;
+    width: 160px;
+    border: 3px solid rgb(159, 212, 245);
+    border-radius: 20px;
+}
+
+.group p {
+    height: auto;
+    width: 160px;
+    margin: 0;
+    text-align: center;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+
 
 
 
